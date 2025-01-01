@@ -1,0 +1,37 @@
+
+$heading_xxl: clamp(
+  5.95rem,
+  1.8954545454545455rem + 20.272727272727277vw,
+  17.1rem
+);
+$heading_xl: clamp(
+  2.45rem,
+  1.2681818181818183rem + 5.909090909090909vw,
+  5.7rem
+);
+
+$section_heading: clamp(2.1rem, 1.62rem + 2.4vw, 3.42rem);
+
+$text_xl: clamp(1.05rem, 0.81rem + 1.2vw, 1.71rem);
+
+$text_xl_1: clamp(
+  0.7rem,
+  0.3327272727272727rem + 1.8363636363636364vw,
+  1.71rem
+);
+
+$text_lg: clamp(0.875rem, 0.675rem + 1vw, 1.425rem);
+
+$text_md: clamp(0.63rem, 0.486rem + 0.72vw, 1.026rem);
+
+$text_rg: clamp(
+  0.56rem,
+  0.43200000000000005rem + 0.6399999999999999vw,
+  0.912rem
+);
+
+$text_sm: clamp(0.49rem, 0.378rem + 0.56vw, 0.798rem);
+
+$section_sub_heading: clamp(0.7rem, 0.54rem + 0.7999999999999998vw, 1.14rem);
+
+$text_normal: clamp(0.7rem, 0.54rem + 0.7999999999999998vw, 1.14rem);

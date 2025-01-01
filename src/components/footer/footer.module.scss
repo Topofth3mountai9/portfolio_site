@@ -1,0 +1,29 @@
+@use '../../global.scss' as global;
+
+.footer {
+  // border-top: 1px solid global.$light_grey;
+  border-top: 1px solid #444;
+  padding-block-start: 1.5rem;
+}
+
+.footer_container {
+  justify-content: space-between;
+  font-size: global.$text_rg;
+
+  .copyright {
+  }
+
+  .footer_svg {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .creator {
+    font-size: global.$text_md !important;
+
+    .text_emphasis {
+      font-family: 'Caveat', 'cursive';
+      font-size: global.$text_md !important;
+    }
+  }
+}

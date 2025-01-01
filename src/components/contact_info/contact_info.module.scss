@@ -1,0 +1,53 @@
+@use '../../global.scss' as global;
+
+.svg_wrapper {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 0.2rem solid global.$light_grey;
+  background: global.$light_black;
+
+  &::after {
+    content: '';
+    background: global.$light_grey;
+    width: 0.2rem;
+    height: 5rem;
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 0.25rem;
+    right: -2.82rem;
+  }
+}
+
+.individual_contact_container {
+  gap: 10rem;
+  .label {
+    font-family: 'Caveat', 'cursive';
+    font-size: global.$text_xl;
+    color: global.$color_grey_0;
+  }
+
+  .info {
+    color: global.$light_grey;
+    font-size: global.$text_rg;
+  }
+}
+
+//responsive
+@media all and (width <= 900px) {
+  .svg_wrapper {
+    width: 4rem;
+    height: 4rem;
+
+    &::after {
+      bottom: -0.65rem;
+      right: -2.62rem;
+    }
+  }
+}
+
+@media all and (width <= 700px) {
+  .contact_info_container {
+    display: none !important;
+  }
+}

@@ -1,0 +1,25 @@
+@use '../../global.scss' as global;
+
+.hamburger_container {
+  gap: 0.8rem;
+  // position: fixed;
+  // top: 4rem;
+  // right: 4rem;
+}
+
+.bar {
+  height: 0.3rem;
+  width: 3rem;
+  background: global.$light_grey;
+  transition: transform 0.3s;
+}
+
+.change_hamburger_menu {
+  .line_1 {
+    transform: rotateZ(45deg) translate(0.7rem, -0.1rem);
+  }
+
+  .line_2 {
+    transform: rotateZ(-45deg) translate(0.7rem, -0.1rem);
+  }
+}

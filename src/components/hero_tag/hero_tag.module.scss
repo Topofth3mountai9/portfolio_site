@@ -1,0 +1,37 @@
+@use '../../global.scss' as global;
+
+.tag_container {
+  display: inline-block;
+  background: global.$light_black;
+  // padding: 1.5em 2.4em;
+  padding: 1em 2.4em;
+  border: 0.2rem solid global.$light_grey;
+  font-size: global.$text_sm;
+  text-transform: uppercase;
+
+  .stat {
+    font-size: global.$text_xl;
+  }
+
+  .stat_info {
+    width: 50%;
+    // text-align: center;
+  }
+}
+
+@media all and (width <= 1450px) {
+  .tag_container {
+    padding: 1.1em 2em;
+  }
+}
+
+@media all and (width <= 1370px) {
+  .tag_container {
+    padding: 0.9em 1.8em;
+  }
+}
+@media all and (width <= 1000px) {
+  .tag_container {
+    padding: 0.8em 1.6em;
+  }
+}

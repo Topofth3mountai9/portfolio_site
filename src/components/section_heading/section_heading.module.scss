@@ -1,0 +1,17 @@
+@use '../../global.scss' as global;
+
+.section_heading_container {
+  // width:100%;
+  text-transform: uppercase;
+  .heading_2 {
+    font-size: global.$section_heading;
+  }
+  .heading_3 {
+    font-size: global.$section_sub_heading;
+  }
+
+  .skills_emphasis {
+    font-family: 'Caveat', 'cursive';
+    font-size: global.$section_sub_heading_emphasis;
+  }
+}

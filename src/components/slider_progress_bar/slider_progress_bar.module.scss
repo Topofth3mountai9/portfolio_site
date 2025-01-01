@@ -1,0 +1,50 @@
+@use '../../global.scss' as global;
+
+.progressBar {
+  width: 100%;
+  height: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.lineBackground {
+  width: 100%;
+  height: 0.2rem;
+  // background-color: #e0e0e0;
+  background-color: global.$great_grey;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lineColored {
+  height: 0.2rem;
+  // background-color: #4caf50;
+  background-color: global.$primary_color;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: width 0.3s ease-in-out;
+}
+
+.slider {
+  width: 25px;
+  height: 25px;
+  background-color: global.$light_black;
+  border: 0.2rem solid global.$light_grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: left 0.3s ease-in-out;
+}
+
+.label {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000;
+  font-weight: bold;
+  margin-top: 5px;
+}
