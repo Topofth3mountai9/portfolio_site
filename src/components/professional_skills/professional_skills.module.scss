@@ -1,6 +1,7 @@
 @use '../../global.scss' as global;
 
 .professional_skills {
+  margin-block-start: 30rem;
   min-height: 100vh;
 }
 
@@ -89,6 +90,9 @@
   .actual_skills {
     // grid-template-columns: 1fr !important;
     padding-inline: 0rem;
+  }
+  .professional_skills {
+    margin-block-start: 0rem !important;
   }
 }
 @media all and (width <= 560px) {
