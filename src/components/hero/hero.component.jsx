@@ -19,17 +19,17 @@ function Hero() {
           >
             <Section_border other_class={styles.section_border} />
             <div className={`${styles.hero_header} flex_items flex_column`}>
-              <h4 className={`${styles.greeting}`}>
+              <h4 className={`${styles.greeting} text_tiny`}>
                 Hello, <span className="text_emphasis">My name is</span>{' '}
               </h4>
-              <h3 className={`${styles.name} mb_0`}>
+              <h3 className={`${styles.name} mb_0 heading_title`}>
                 <span className="text_emphasis">Some </span> Name
               </h3>
-              <h4
-                className={`${styles.what_man_do} flex_items align_middle g_1`}
+              <h5
+                className={`${styles.what_man_do} flex_items align_middle g_1 text_small`}
               >
                 I am a <span className={`${styles.skill}`}>web developer</span>
-              </h4>
+              </h5>
               <p className={`${styles.hero_text} mb_32`}>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Exercitationem quisquam facilis reprehenderit sunt aliquam

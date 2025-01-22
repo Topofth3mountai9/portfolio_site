@@ -1,7 +1,8 @@
 @use '../../global.scss' as global;
 .btn {
   position: relative;
-  font-size: global.$text_sm;
+  // font-size: global.$text_sm;
+  font-size: global.$text_xxs;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   // color: global.$color_grey_0;

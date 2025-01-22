@@ -19,7 +19,9 @@
 
 .skills_card_container {
   //   font-size: global.$normal_text;
-  font-size: global.$text_lg;
+  // font-size: global.$text_lg;
+  // font-size: global.$text_regular;
+  font-size: global.$text_medium;
   .header {
     justify-content: space-between;
   }
@@ -92,7 +94,7 @@
     padding-inline: 0rem;
   }
   .professional_skills {
-    margin-block-start: 0rem !important;
+    margin-block-start: 15rem !important;
   }
 }
 @media all and (width <= 560px) {

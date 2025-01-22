@@ -40,22 +40,26 @@
 }
 
 .tech_stack {
-  font-size: global.$normal_text;
+  // font-size: global.$normal_text;
+  font-size: global.$text_small;
   text-transform: uppercase;
 }
 
 .project_name {
   margin-block: 2rem 3rem;
-  font-size: global.$text_xl;
+  // font-size: global.$text_xl;
+  font-size: global.$text_medium;
 }
 
 .project_content {
   font-family: 'Caveat', 'cursive';
-  font-size: global.$text_lg;
+  // font-size: global.$text_lg;
+  font-size: global.$text_regular;
 }
 
 .see_project {
-  font-size: global.$normal_text;
+  // font-size: global.$normal_text;
+  font-size: global.$text_tiny;
 
   .see_project_h3 {
     margin-bottom: 0;

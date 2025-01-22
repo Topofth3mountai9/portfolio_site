@@ -31,7 +31,7 @@ function Project({
         <p className={`${styles.project_content} mb_32`}>{content}</p>
 
         <div className={`${styles.see_project} flex_items g_1 align_middle`}>
-          <h3 className={`${styles.see_project_h3}`}>See Project</h3>
+          <h4 className={`${styles.see_project_h3} text_tiny`}>See Project</h4>
           <HiOutlineArrowRight className={`${styles.arrow_right_svg}`} />
         </div>
       </div>
